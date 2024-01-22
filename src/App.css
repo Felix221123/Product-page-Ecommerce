@@ -1,0 +1,43 @@
+/* Main styling for App.tsx*/
+
+
+@media (min-width:1439px) {
+    .image-product-details-container{
+        margin-top: 4.5rem;
+        /* background-color: red; */
+        display:grid;
+        grid-template-columns: 0.5fr 0.47fr;
+        height: auto;
+        
+        align-items: center;
+        column-gap: 2.5rem;
+        width: 70.5%;
+        height: auto;
+        margin-inline: auto;
+    }
+
+    .product-details-cart-container{
+        display:flex;
+        flex-direction:column;
+        row-gap: 3rem;
+        /* background-color: red; */
+        
+    }
+    
+}
+
+
+
+
+
+@media (max-width:1439px) {
+    /* .image-product-details-container{
+        
+    } */
+    .product-details-cart-container{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    
+}
